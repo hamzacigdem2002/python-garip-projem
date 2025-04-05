@@ -3,7 +3,7 @@ print("Penis boyu hesaplama programına hoşgeldiniz")
 while True:
     print("\nLütfen yapmak istediğiniz işlemi seçin:")
     print("1. Kilo, ayak numarası ve boy ile hesaplama")
-    print("2. Baş parmak boyu ile hesaplama")
+    print("2. İşaret parmak boyu ile hesaplama")
     print("3. Çıkış")
 
     secim = input("Seçiminiz (1/2/3): ")
@@ -34,9 +34,9 @@ while True:
 
     elif secim == '2':
         # 2.işlem
-        bas_parmak_boyu = int(input("Baş Parmağınızın uzunluğunu giriniz: "))
+        isaret_parmak_boyu = int(input("İşaret Parmağınızın uzunluğunu giriniz: "))
 
-        dick_size = bas_parmak_boyu + ( bas_parmak_boyu / 2 )
+        dick_size = isaret_parmak_boyu + ( isaret_parmak_boyu / 2 )
 
         print(f"Yarrağınızın boyu: {dick_size}")
 
